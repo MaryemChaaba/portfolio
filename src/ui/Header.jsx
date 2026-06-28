@@ -7,10 +7,10 @@ import { MdOutlineClose } from "react-icons/md";
 import SocialLInks from "./SocialLInks";
 const navigation = [
   { title: "Home", link: "home", value: "" },
-  { title: "About", link: "about", value: "01", delay: 0.1 },
+  { title: "Formations", link: "about", value: "01", delay: 0.1 },
   { title: "Experience", link: "experience", value: "02", delay: 0.2 },
   { title: "Project", link: "project", value: "03", delay: 0.3 },
-  { title: "Contact", link: "contact", value: "04", delay: 0.4 },
+  { title: "Languages", link: "contact", value: "04", delay: 0.4 },
 ];
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -23,7 +23,7 @@ const Header = () => {
   };
   return (
     <div className="h-20 shadow-lg shadow-designColor/10 px-4 lg:px-0 sticky top-0 z-50 bg-primaryColor">
-      <div className="max-w-[1440px] mx-auto flex items-center h-full justify-between">
+      <div className="max-w-7xl mx-auto flex items-center h-full justify-between">
         <img
           src={logo}
           alt="logo"

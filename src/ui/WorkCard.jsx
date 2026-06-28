@@ -16,8 +16,12 @@ const WorkCard = ({
     >
       <h3 className="text-xl font-medium flex gap-1">
         {jobTitle}{" "}
-        <span className="text-designColor tracking-wide">{jobTag}</span>
+    
       </h3>
+      <h2 className="text-l font-medium flex gap-1">
+       
+        <span className="text-designColor tracking-wide">{jobTag}</span>
+      </h2>
       <p className="text-sm mt-1 font-medium text-darkText">{date}</p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="flex gap-2 text-darkText">

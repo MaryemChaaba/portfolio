@@ -12,34 +12,24 @@ import { twMerge } from "tailwind-merge";
 const socialAccounts = [
   {
     title: "github",
-    link: "https://github.com/noorjsdivs",
+    link: "https://github.com/settings/profile",
     icon: <TbBrandGithub />,
     delay: 0.8,
   },
-  {
-    title: "youtube",
-    link: "https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA",
-    icon: <SlSocialYoutube />,
-    delay: 0.85,
-  },
+ 
   {
     title: "linkedin",
-    link: "https://www.linkedin.com/in/noor-mohammad-ab2245193/",
+    link: "https://www.linkedin.com/in/maryem-chaaba-893722100/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
   {
     title: "facebook",
-    link: "https://www.facebook.com/Noorlalu143/",
+    link: "https://www.facebook.com/chaabamaryem",
     icon: <SlSocialFacebook />,
     delay: 0.95,
   },
-  {
-    title: "instagram",
-    link: "https://www.instagram.com/simplenoor143/",
-    icon: <SlSocialInstagram />,
-    delay: 1,
-  },
+  
 ];
 const SocialLInks = ({ className }) => {
   return (

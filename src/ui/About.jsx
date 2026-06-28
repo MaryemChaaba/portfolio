@@ -3,57 +3,49 @@ import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 import { FaCode } from "react-icons/fa";
 
-const About = () => {
+const   About = () => {
   const textArray = [
-    { title: "JavaScript (ES6+)", link: "https://reactbd.com/" },
-    { title: "Next js", link: "https://reactbd.com/" },
-    { title: "React js", link: "https://reactbd.com/" },
-    { title: "Node js", link: "https://reactbd.com/" },
-    { title: "TypeScript", link: "https://reactbd.com/" },
-    { title: "Express js", link: "https://reactbd.com/" },
-    { title: "MongoDB", link: "https://reactbd.com/" },
-    { title: "TailwindCSS", link: "https://reactbd.com/" },
+    { title: "JavaScript (ES6+)" },
+    { title: "Next js" },
+    { title: "React js" },
+    { title: "Node js" },
+    { title: "TypeScript" },
+    { title: "Express js" },
+    { title: "MongoDB" },
+    { title: "TailwindCSS" },
   ];
   return (
-    <Container id="about" className="py-10 lg:py-24 flex flex-col gap-8">
-      <SectionTitle titleNo="01" title="About me" />
+    <Container id="about" className="py-10 lg:py-24 flex flex-col gap-8 max-w-5xl mx-auto ">
+      <SectionTitle titleNo="01" title="Formations" />
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-darkText font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
-          </p>
-          <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-designColor">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-designColor">
-              ab natus possimus? Sint, accusamus!
-            </span>
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
-          </p>
+            <span className="text-designColor">2013 – 2016:{" "} </span>
+            Computer Engineering — EPI Sousse 
+            </p>
+            <p>
+            <span className="text-designColor">2007–2010:{" "} </span>
+            Senior Computer Technician — ISITCom Sousse  
+            </p>
+            <p>
+            <span className="text-designColor">2006–2007:{" "} </span>
+            Mathematics Bachelor — Lycée El Jem 
+            </p>
+
+
+          
+          
           <p>Here are a few technologies I have been working with recently:</p>
           <div className="max-w-[450px] text-sm grid grid-cols-2 gap-2 mt-6">
             {textArray.map((item) => (
-              <a
+              <h2
                 key={item?.title}
-                href={item?.link}
+                
                 className="flex items-center gap-2 hover:text-white/80 duration-200 group"
               >
                 <FaCode className="text-designColor/80 group-hover:text-designColor duration-200" />{" "}
                 {item?.title}
-              </a>
+              </h2>
             ))}
           </div>
         </div>

@@ -19,7 +19,7 @@ function App() {
       <About />
       <Experience />
       <Project />
-      <Archive />
+      {/* <Archive /> */}
       <Contact />
       <motion.div
         initial={{ opacity: 0 }}

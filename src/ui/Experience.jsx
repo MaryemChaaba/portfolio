@@ -64,7 +64,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-darkText"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-4 font-medium`}
           >
-            ReactBD
+            Freelance
           </li>
           <li
             onClick={handleGoogle}
@@ -74,7 +74,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-darkText"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-4 font-medium`}
           >
-            Google
+            Betterwa
           </li>
           <li
             onClick={handleApple}
@@ -84,84 +84,44 @@ const Experience = () => {
                 : "border-l-hoverColor text-darkText"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-4 font-medium`}
           >
-            Apple
+            Satoripop
           </li>
-          <li
-            onClick={handleSplash}
-            className={`${
-              workSplash
-                ? "border-l-designColor text-designColor"
-                : "border-l-hoverColor text-darkText"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-4 font-medium`}
-          >
-            Splash
-          </li>
-          <li
-            onClick={handleAmazon}
-            className={`${
-              workAmazon
-                ? "border-l-designColor text-designColor"
-                : "border-l-hoverColor text-darkText"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-4 font-medium`}
-          >
-            Amazon
-          </li>
+          
+          
+        
         </ul>
         {/* Content */}
         {workReactBd && (
           <WorkCard
-            jobTitle="Engineer"
-            jobTag="@ReactBD"
-            date="Jan 2023 - present"
-            detailsOne=" Write modern, performant, maintainable code for a diverse array of client and internal projects"
-            detailsTwo="Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify"
-            detailsThree="Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis"
-          />
+            jobTitle="Freelance"
+            jobTag="Next, React, Node.js, and MongoDB"
+            date="2022 - present"
+           detailsOne="Continuously learned new technologies and frameworks through online courses, workshops, and hands-on projects."
+            detailsTwo="Built a responsive MERN applications with OTP verification, JWT authentication, password reset, pagination, search, and filtering features. Integrated Redux Toolkit for state management and developed a complete back-end API using Node.js and Express."
+            detailsThree="Converted Figma designs into fully functional, responsive websites using React functional components, Tailwind, and Shadcn."
+             />
         )}
         {workGoogle && (
           <WorkCard
             jobTitle="Web Developer"
-            jobTag="@Google"
-            date="Jan 2022 - Dec 2023"
-            detailsOne="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio doloribus quas ex ea sed."
-            detailsTwo="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-            accusantium animi tenetur rerum, culpa quibusdam! Consectetur laboriosam hic harum modi."
-            detailsThree="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt sequi?"
-          />
+            jobTag="PHP, MySQL, HTML5, CSS3, jQuery, JavaScript, Bootstrap, WordPress, PrestaShop"
+            date="2018 - 2022"
+            detailsOne="Integrated over 100 HTML emails, landing pages, and web forms."
+            detailsTwo="Developed mobile-first applications with fully responsive designs "
+            detailsThree="Collaborated closely with the UX/UI team to implement designs and enhance overall user experience."
+             />
         )}
         {workApple && (
           <WorkCard
-            jobTitle="MERN Stack Developer"
-            jobTag="@Apple"
-            date="Jan 2021 - Dec 2021"
-            detailsOne="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio doloribus quas ex ea sed."
-            detailsTwo="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-            accusantium animi tenetur rerum, culpa quibusdam! Consectetur laboriosam hic harum modi."
-            detailsThree="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt sequi?"
-          />
+            jobTitle="Web Integrator "
+            jobTag="WordPress, PHP, MySQL, HTML, and CSS."
+            date="2017"
+            detailsOne="Built responsive, accessible, and high-performance user interfaces based on visual designs."
+            detailsTwo="Applied best practices for responsive design and accessibility."
+            detailsThree="Improved SEO and application performance."
+            />
         )}
-        {workSplash && (
-          <WorkCard
-            jobTitle="MERN Stack Developer"
-            jobTag="@Splash"
-            date="Jan 2021 - Dec 2021"
-            detailsOne="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio doloribus quas ex ea sed."
-            detailsTwo="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-            accusantium animi tenetur rerum, culpa quibusdam! Consectetur laboriosam hic harum modi."
-            detailsThree="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt sequi?"
-          />
-        )}
-        {workAmazon && (
-          <WorkCard
-            jobTitle="web Design"
-            jobTag="@Amazon"
-            date="Jan 2020 - Dec 2020"
-            detailsOne="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio doloribus quas ex ea sed."
-            detailsTwo="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-            accusantium animi tenetur rerum, culpa quibusdam! Consectetur laboriosam hic harum modi."
-            detailsThree="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt sequi?"
-          />
-        )}
+       
       </div>
     </Container>
   );
