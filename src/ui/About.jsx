@@ -16,7 +16,7 @@ const   About = () => {
   ];
   return (
     <Container id="about" className="py-10 lg:py-24 flex flex-col gap-8 max-w-5xl mx-auto ">
-      <SectionTitle titleNo="01" title="Formations" />
+      <SectionTitle titleNo="01" title="Education" />
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-darkText font-medium flex flex-col gap-4">
           <p>

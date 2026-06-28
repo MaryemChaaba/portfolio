@@ -12,13 +12,13 @@ const Contact = () => {
       </p>
       
       <p className="max-w-xl mx-auto text-center text-darkText">
-       English – Intermediate  <br/>
-French – Intermediate <br/>
+       English – Professional Working Proficiency  <br/>
+French – Professional Working Proficiency <br/>
 Arabic – Native
       </p>
       <a href="mailto:noor.jsdivs@gmail.com">
         <p className="px-4 h-14 border border-designColor font-semibold mt-6 text-sm text-designColor tracking-wider rounded-md hover:bg-hoverColor duration-300 flex items-center justify-center">
-          Chaaabamarryem@gmail.com
+          Chaaabamaryem@gmail.com
         </p>
       </a>
     </Container>

@@ -93,10 +93,10 @@ const Experience = () => {
         {/* Content */}
         {workReactBd && (
           <WorkCard
-            jobTitle="Freelance"
+            jobTitle="MERN stack"
             jobTag="Next, React, Node.js, and MongoDB"
             date="2022 - present"
-           detailsOne="Continuously learned new technologies and frameworks through online courses, workshops, and hands-on projects."
+           detailsOne="Built and delivered multiple production-ready MERN applications with authentication, dashboards, and API integrations."
             detailsTwo="Built a responsive MERN applications with OTP verification, JWT authentication, password reset, pagination, search, and filtering features. Integrated Redux Toolkit for state management and developed a complete back-end API using Node.js and Express."
             detailsThree="Converted Figma designs into fully functional, responsive websites using React functional components, Tailwind, and Shadcn."
              />
@@ -116,9 +116,12 @@ const Experience = () => {
             jobTitle="Web Integrator "
             jobTag="WordPress, PHP, MySQL, HTML, and CSS."
             date="2017"
-            detailsOne="Built responsive, accessible, and high-performance user interfaces based on visual designs."
+            detailsOne="Developed responsive and accessible websites .Converted UI/UX designs into pixel-perfect web pages."
             detailsTwo="Applied best practices for responsive design and accessibility."
             detailsThree="Improved SEO and application performance."
+
+            
+
             />
         )}
        

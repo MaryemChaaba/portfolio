@@ -6,8 +6,8 @@ import resume from "../../public/resume.pdf";
 
 const Banner = () => {
   const stringsArray = [
-    "I build things for the web",
-    "Passionate web developer",
+    "Frontend Developer",
+    "specializing in React & Next.js",
     "Love to learn new ideas",
   ];
   return (
@@ -21,7 +21,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-lg font-semibold tracking-wide text-designColor"
       >
-        Hi, my name is
+        Hi, I'm
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -46,10 +46,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="md:max-w-[650px] text-darkText font-medium leading-7"
       >
-        I am a web developer with 5+ years of experience in JavaScript. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+        I build modern, responsive, and high-performance web applications using React, Next.js, TypeScript, and Tailwind CSS. Passionate about creating intuitive user experiences, writing clean code, and continuously learning new technologies.{" "}
 
       </motion.p>
       <motion.a

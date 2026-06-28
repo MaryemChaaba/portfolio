@@ -7,11 +7,12 @@ import { MdOutlineClose } from "react-icons/md";
 import SocialLInks from "./SocialLInks";
 const navigation = [
   { title: "Home", link: "home", value: "" },
-  { title: "Formations", link: "about", value: "01", delay: 0.1 },
+  { title: "Education", link: "about", value: "01", delay: 0.1 },
   { title: "Experience", link: "experience", value: "02", delay: 0.2 },
-  { title: "Project", link: "project", value: "03", delay: 0.3 },
+  { title: "Projects", link: "project", value: "03", delay: 0.3 },
   { title: "Languages", link: "contact", value: "04", delay: 0.4 },
 ];
+
 const Header = () => {
   const [show, setShow] = useState(false);
   const ref = useRef();
@@ -132,10 +133,10 @@ const Header = () => {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1.2, ease: "easeIn" }}
                   className="text-sm w-72 tracking-widest text-designColor text-center mt-4"
-                  href="mailto:noor.jsdivs@gmail.com"
+                  href="mailto:chaabamaryem@gmail.com"
                 >
                   <p className="text-darkText hover:text-designColor hover:underline underline-offset-4 duration-200">
-                    reactbd@proton.me
+                   chaabamaryem@gmail.com
                   </p>
                 </motion.a>
               </div>
