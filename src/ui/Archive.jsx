@@ -22,9 +22,7 @@ const Archive = () => {
     <Container className="py-24 max-w-5xl mx-auto">
       <div className="flex flex-col gap-1 items-center">
         <h2 className="text-3xl font-semibold">Other Noteworthy Projects</h2>
-        <p className="text-sm text-designColor tracking-wide">
-          view the archive
-        </p>
+       
       </div>
       <div
         ref={projectContainerRef}
@@ -44,14 +42,7 @@ const Archive = () => {
           ))}
         </AnimatePresence>
       </div>
-      <div className="mt-10 flex items-center justify-center">
-        <button
-          onClick={handleShow}
-          className="w-36 h-12 rounded-md text-designColor text-sm border border-designColor hover:bg-hoverColor duration-300"
-        >
-          {showMore ? "Show Less" : "Show More"}
-        </button>
-      </div>
+      
     </Container>
   );
 };

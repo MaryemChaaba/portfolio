@@ -86,7 +86,7 @@ Improved page performance and loading speed.
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkText">
               <li>React</li><li> Tailwind CSS</li><li> JavaScript</li> <li>Git</li>
             </ul>
-            <ProjectsLInks weblink="https://uiuxreastaurant.netlify.app/" gitLink="https://github.com/MaryemChaaba/realestate"/>
+            <ProjectsLInks weblink="https://uiuxreastaurant.netlify.app/" gitLink="https://github.com/MaryemChaaba/restaurant"/>
           </div>
         </div>
 
